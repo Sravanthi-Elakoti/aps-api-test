@@ -24,9 +24,9 @@ public class AppSpring implements CommandLineRunner {
         String url = "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA";
 
         Map<String, String> requestBody = new HashMap<>();
-        requestBody.put("name", "Your Name");
-        requestBody.put("regNo", "REG12347");
-        requestBody.put("email", "your@email.com");
+        requestBody.put("name", "ElakotiSravanthi");
+        requestBody.put("regNo", "060226");
+        requestBody.put("email", "sravanthielakoti@gmail.com");
 
         ResponseEntity<Map> response =
                 restTemplate.postForEntity(url, requestBody, Map.class);
